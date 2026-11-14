@@ -38,8 +38,8 @@ else
     echo "Uzytkownik guest nie istnial w systemie"
 fi
 
-myUser="pawel"
-myPassword="Rownoleglosc#Javie26"
+myUser="user"
+myPassword="password123"
 
 if ! id "$myUser" 2>/dev/null; then
     useradd -m -s /bin/bash "$myUser"
